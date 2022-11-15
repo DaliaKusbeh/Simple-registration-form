@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ClassActivity1</string>
+    <string-array name="major">
+        <item>Computer Since</item>
+        <item>Computer Engineering</item>
+        <item>Electrical Engineering</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+</resources>

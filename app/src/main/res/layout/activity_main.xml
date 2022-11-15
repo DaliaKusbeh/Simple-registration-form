@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4FFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/refer"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="Welcome in registration"
+        android:textColor="#007FFF"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        style="@style/editTextStyle"
+        android:hint="Enter Your first name  .."
+        android:id="@+id/fnameText"
+        />
+
+    <EditText
+        style="@style/editTextStyle"
+        android:hint="Enter Your last name  .."
+        android:id="@+id/lnameText"
+        />
+
+    <EditText
+        style="@style/editTextStyle"
+        android:hint="Enter Your email .."
+        android:id="@+id/emailText"
+        />
+
+    <EditText
+        style="@style/editTextStyle"
+        android:hint="Enter Your password .."
+        android:id="@+id/passwordText"
+        android:inputType="textPassword"
+        />
+
+    <Spinner
+        android:id="@+id/major"
+        style="@style/spinnerStyle"
+        android:entries="@array/major"
+        />
+    <Spinner
+        android:id="@+id/gender"
+        style="@style/spinnerStyle"
+        android:entries="@array/gender"
+    />
+
+    <Switch
+        android:id="@+id/swInfo"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Show Your Information ?"
+        android:textColor="#FFAA00"
+        android:checked="false"
+        />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/scrollText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            />
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
